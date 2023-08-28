@@ -2,112 +2,100 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="flex min-h-screen flex-col items-center bg-green-100 justify-between  ">
+       <div className='w-full drop-shadow-sm items-center top-0 fixed h-12 pl-40  bg-black flex flex-row'>
+       <Image src={'/logo1.svg'} width={200} height={200} alt='' />
+      
+
+       </div>
+        <div className='h-auto w-full bg-[#060D13]'  > 
+        
+        <div className=' px-40 pt-20 flex flex-row h-auto items-center justify-between '> 
+        <div className='flex flex-col gap-10 '>
+        <p className='text-white font-normal  w-[800px] text-8xl'>Discover, Analyse, and Engage</p>
+            <p className='text-white text-lg w-[633px]'>Welcome to the Concordium dApp Marketplace, a platform where you can discover and engage with decentralized applications (dApps) built on the Concordium blockchain. Our platform not only provides a comprehensive list of these dApps, but also offers valuable analytics on their performance to give you a clear picture of their utility and effectiveness.</p>
+       
+            <div className='hover:cursor-pointer w-96 h-24 bg-white p-10 items-center flex'>
+              <p className='text-black text-4xl font-semi-bold'> Exolore Dapps</p>
+            </div>
+          <div className=''>
+
+          </div>
         </div>
-      </div>
+        <Image className=' scale-125' src={'/dapps.gif'} width={600} height={600} alt='' />
+        
+        </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        </div>
+      {/* Descriptions */}
+        <div  className='bg-white w-full'>
+          <div className=' px-40 flex flex-row items-center justify-between '>  
+              <div className='flex flex-col w-auto'>
+                  <p className='text-black font-bold text-3xl pb-10'>Discover amazing dApps</p>
+                  <p className='text-black w-[642px] font-semi-bold text-xl'>Our marketplace is built on the Concordium blockchain, a layer-1 blockchain designed to balance privacy and accountability. Every participant on our platform has a verified blockchain-based identity credential, ensuring a secure and trusted environment for you to explore and interact with dApps.</p>
+              </div>
+              <div className='p-8'>
+              <Image src={'/Analytics.svg'} width={400} height={400} alt='' />
+              </div>
+          </div>
+          <div className=' px-40 flex flex-row justify-between delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0 '>
+              <div className='flex flex-col w-auto'>
+                  <p className='text-black font-bold text-3xl pb-10'>Evaluate with Insight</p>
+                  <p className='text-black w-[642px] font-semi-bold text-xl'>Track the number of transactions each dApp is part of, the number of users each dApp has, and other key metrics. These analytics are displayed for each dApp, enabling you to make informed decisions on which dApps to engage with.</p>
+              </div>
+              <div className='p-8'>
+              <Image src={'/performance.svg'} width={400} height={400} alt='' />
+              </div>
+          </div>
+          <div className=' px-40 flex flex-row justify-between delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0 '>
+              <div className='flex flex-col w-auto'>
+                  <p className='text-black font-bold text-3xl pb-10'>Engage with Ease</p>
+                  <p className='text-black w-[642px] font-semi-bold text-xl'>Our user-friendly interface allows you to interact with the dApps listed on our platform with ease. Our platform enables seamless transaction handling which is integrated with the Concordium Wallet for Web.</p>
+              </div>
+              <div className='p-8'>
+              <Image src={'/easy.png'} width={300} height={300} alt='' />
+              </div>
+          </div>
+        </div>
+        <div className='flex flex-col gap-4 py-20 items-center bg-[#060D13] w-full h-auto'>
+                  <p className='text-white text-3xl p-2'>Join our Community</p>  
+      <div className='flex flex-row gap-4 items-center'>
+          <input className='h-12 w-80 placeholder:text-gray-500 placeholder:p-4' placeholder='Email address' />
+          <div className='hover:cursor-pointer w-auto h-12 bg-white p-5 items-center flex'>
+              <p className='text-black text-xl font-semi-bold'> Join Now</p>
+            </div>
+       </div>
+        </div>
+        <div className='flex flex-col gap-4 items-center justify-center bg-black w-full h-56'>
+      
+          <div className='px-40 flex flex-row justify-between w-full'> 
+          <Image src={'/logo1.svg'} width={200} height={200} alt='' />
+            <div className='flex flex-row items-center gap-4'>
+            <a href='https://x.com/cordiumdapps'>
+            <Image  src={'/xtwitter.svg'} width={25} height={25} alt='' />
+            </a>  
+            <a href='https://discord.gg/JyW6Hm7x'>
+            <Image  src={'/discord.svg'} width={25} height={25} alt='' />
+            </a>
+          <a href='https://github.com/Cordium-Dapps'>
+          <Image src={'/github.svg'} width={25} height={25} alt='' />
+          </a>
+          <a href='https://t.me/cordiumdapps'>
+          <Image src={'/telegram.svg'} width={25} height={25} alt='' />
+          </a>
+            </div>
+          </div>
+          <div className='h-0.5 w-full mt-20 bg-gray-500 opacity-25'>
+</div>
+<div className='flex flex-row justify-between w-full px-40 flex-start'>
+    <p className='text-white text-lg'>© Copyright 2023, All Rights Reserved</p>
+    <div className='flex  gap-4 flex-row text-white text-lg'>
+      <a href=''>Privacy policy </a>
+      <a href='https://www.canva.com/design/DAFs2kk8ZOc/cKoa8E1rze7k6HHVMVJYFw/edit?utm_content=DAFs2kk8ZOc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'>Whitepaper </a>
+      <a href=''>Terms and Conditions</a>
+    </div>
+</div>
+        </div>
     </main>
   )
 }
