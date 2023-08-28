@@ -3,9 +3,16 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-green-100 justify-between  ">
-       <div className='w-full drop-shadow-sm items-center top-0 fixed h-12 pl-40  bg-black flex flex-row'>
-       <Image src={'/logo1.svg'} width={200} height={200} alt='' />
+       <div className='w-full drop-shadow-sm items-center justify-between top-0 fixed h-12 px-40   bg-black flex flex-row'>
+       <Image className='hover:cursor-pointer' src={'/logo1.svg'} width={200} height={200} alt='' />
       
+      <div className='flex flex-row gap-4 items-center z-10'> 
+          <p className='text-white hover:cursor-pointer hover:scale-110 '>Dapp news</p>
+          <p className='hover:cursor-pointer hover:scale-110'>Blog</p>
+          <div className='hover:cursor-pointer w-36 h-8 bg-white items-center flex'>
+              <p className=' self-center text-black text-md p-2 font-semi-bold  '> Exolore Dapps</p>
+            </div>
+      </div>  
 
        </div>
         <div className='h-auto w-full bg-[#060D13]'  > 
@@ -15,8 +22,8 @@ export default function Home() {
         <p className='text-white font-normal  w-[800px] text-8xl'>Discover, Analyse, and Engage</p>
             <p className='text-white text-lg w-[633px]'>Welcome to the Concordium dApp Marketplace, a platform where you can discover and engage with decentralized applications (dApps) built on the Concordium blockchain. Our platform not only provides a comprehensive list of these dApps, but also offers valuable analytics on their performance to give you a clear picture of their utility and effectiveness.</p>
        
-            <div className='hover:cursor-pointer w-96 h-24 bg-white p-10 items-center flex'>
-              <p className='text-black text-4xl font-semi-bold'> Exolore Dapps</p>
+            <div className='hover:cursor-pointer w-80 h-24 bg-white  p-10 items-center flex'>
+              <p className='text-black text-3xl self-center font-semi-bold'> Exolore Dapps</p>
             </div>
           <div className=''>
 
@@ -29,7 +36,7 @@ export default function Home() {
         </div>
       {/* Descriptions */}
         <div  className='bg-white w-full'>
-          <div className=' px-40 flex flex-row items-center justify-between '>  
+          <div className=' px-40 flex flex-row items-center justify-between delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0 ' data-taos-offset="300">  
               <div className='flex flex-col w-auto'>
                   <p className='text-black font-bold text-3xl pb-10'>Discover amazing dApps</p>
                   <p className='text-black w-[642px] font-semi-bold text-xl'>Our marketplace is built on the Concordium blockchain, a layer-1 blockchain designed to balance privacy and accountability. Every participant on our platform has a verified blockchain-based identity credential, ensuring a secure and trusted environment for you to explore and interact with dApps.</p>
@@ -56,6 +63,17 @@ export default function Home() {
               <Image src={'/easy.png'} width={300} height={300} alt='' />
               </div>
           </div>
+        </div>
+        <div className='flex flex-col gap-4 py-20 items-center bg-gray-500 w-full h-auto'>
+                  <p className='text-white text-3xl p-2'>Are you a developer?</p>  
+                  <p className='text-white text-xl p-2 w-[600px] text-center self-center'>Submit your Dapp to the Cordium dapps plartfom and benefit from a growing community of dapps</p>  
+                  <div className='hover:cursor-pointer w-auto h-12 bg-[#060D13] p-5 items-center flex'>
+              <p className='text-white text-xl font-semi-bold'> Submit Dapp</p>
+            </div>
+      <div className='flex flex-row gap-4 items-center'>
+          
+         
+       </div>
         </div>
         <div className='flex flex-col gap-4 py-20 items-center bg-[#060D13] w-full h-auto'>
                   <p className='text-white text-3xl p-2'>Join our Community</p>  
