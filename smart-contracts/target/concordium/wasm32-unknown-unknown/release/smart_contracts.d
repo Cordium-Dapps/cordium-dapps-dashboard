@@ -1,1 +1,0 @@
-/Users/yakumwamba/CodeWithYaku/grants/cordium-dapps/smart-contracts/target/concordium/wasm32-unknown-unknown/release/smart_contracts.wasm: /Users/yakumwamba/CodeWithYaku/grants/cordium-dapps/smart-contracts/src/lib.rs

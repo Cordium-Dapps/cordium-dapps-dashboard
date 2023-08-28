@@ -1,7 +1,0 @@
-/Users/yakumwamba/CodeWithYaku/grants/cordium-dapps/smart-contracts/cordium-dapps/target/concordium/release/deps/libconcordium_contracts_common_derive-0c3d6fb4f3ad9b83.dylib: /Users/yakumwamba/.cargo/registry/src/github.com-1ecc6299db9ec823/concordium-contracts-common-derive-4.0.0/src/lib.rs /Users/yakumwamba/.cargo/registry/src/github.com-1ecc6299db9ec823/concordium-contracts-common-derive-4.0.0/src/attribute.rs /Users/yakumwamba/.cargo/registry/src/github.com-1ecc6299db9ec823/concordium-contracts-common-derive-4.0.0/src/derive.rs
-
-/Users/yakumwamba/CodeWithYaku/grants/cordium-dapps/smart-contracts/cordium-dapps/target/concordium/release/deps/concordium_contracts_common_derive-0c3d6fb4f3ad9b83.d: /Users/yakumwamba/.cargo/registry/src/github.com-1ecc6299db9ec823/concordium-contracts-common-derive-4.0.0/src/lib.rs /Users/yakumwamba/.cargo/registry/src/github.com-1ecc6299db9ec823/concordium-contracts-common-derive-4.0.0/src/attribute.rs /Users/yakumwamba/.cargo/registry/src/github.com-1ecc6299db9ec823/concordium-contracts-common-derive-4.0.0/src/derive.rs
-
-/Users/yakumwamba/.cargo/registry/src/github.com-1ecc6299db9ec823/concordium-contracts-common-derive-4.0.0/src/lib.rs:
-/Users/yakumwamba/.cargo/registry/src/github.com-1ecc6299db9ec823/concordium-contracts-common-derive-4.0.0/src/attribute.rs:
-/Users/yakumwamba/.cargo/registry/src/github.com-1ecc6299db9ec823/concordium-contracts-common-derive-4.0.0/src/derive.rs:
