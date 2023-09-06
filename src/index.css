@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: Outfit-Bold;
-    src: url("asset/Font/Outfit/static/Outfit-Bold.ttf") format("opentype");
+    font-family: SpaceGrotesk;
+    src: url("../public/SpaceGrotesk.ttf") format("opentype");
   }
 
   @layer components {
