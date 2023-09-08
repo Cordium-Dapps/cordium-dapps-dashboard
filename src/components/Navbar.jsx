@@ -34,7 +34,7 @@ function Navbar() {
           <Link to="/news">Dapp News</Link>
         </li>
         <li>
-          <Link to="/explore">Explore Dapps</Link>
+          <Link to="/dashboard">Explore Dapps</Link>
         </li>
         <li>
           <Link to="/contact">Contact Us</Link>
@@ -68,7 +68,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="py-4">
-            <Link to="/explore" className="link">
+            <Link to="/dashboard" className="link">
             Explore Dapps
             </Link>
           </li>
